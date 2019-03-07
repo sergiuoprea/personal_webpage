@@ -1,8 +1,22 @@
 # Project template
-- name: Project name
-  link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+- name: UnrealGrasp
+  link: #Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  github: 3dperceptionlab/unrealgrasp
   quote: >
-    Short overview of the project (optional)
+    UnrealGrasp is a flexible and visually realistic grasping system designed to enable natural and real-time interactions in virtual reality applications.
+
   description: | # this will include new lines to allow paragraphs
     Description about the work on/with the project
+ 
+  youtubeId: 65gdFdwsTVg
+
+- name: UnrealROX
+  link: #Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  github: 3dperceptionlab/unrealgrasp
+  quote: >
+    UnrealGrasp is a flexible and visually realistic grasping system designed to enable natural and real-time interactions in virtual reality applications.
+
+  description: | # this will include new lines to allow paragraphs
+    Description about the work on/with the project
+ 
+  youtubeId: 65gdFdwsTVg

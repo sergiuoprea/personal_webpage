@@ -18,7 +18,12 @@
           <p class="quote">{{ project.quote }}</p>
         {%- endif -%}
         {{ project.description | strip | markdownify }}
-      </div>
+
+        {%- if project.youtubeId -%}
+          {% include youtube-player.html id=project.youtubeId %}
+        {%- endif -%}
+
+        <h5>{% bibliography garcia2018 -f conferences.bib --bibliography_template _layouts/bib %}</h5>
     </div>
   {% endfor %}
 </div>

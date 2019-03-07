@@ -3,36 +3,42 @@ repository: Git repository where your resume will be hosted, only required if yo
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-phone: Your phone number (optional)
-website: Your website (eg. https://google.com)(optional)
+name: Sergiu Oprea
+title: PhD student in Computer Science at University of Alicante
+email: soprea@dtic.ua.es
+#phone: Your phone number (optional)
+#website: Your website (eg. https://google.com)(optional)
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-googleplus_username: +jekyll
+twitter_username: sergiuop
+github_username:  sergiuoprea
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+instagram_username: sergiu.op
+linkedin_username: sergiu-oprea-12babaa9
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#googleplus_username: +jekyll
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: /assets/images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Lists
-    - Tables
-    - Links
-    - Images
+  Hi there!
+
+  I am currently a Ph.D. student in Computer Science at the University of Alicante. 
+  I am broadly interested in building the next generation of deep learning-based video prediction systems. 
+  My research interests span topics mainly in:
+    - <mark>Deep Learning</mark>
+    - <mark>Computer Vision</mark>
+    - <mark>Virtual/Augmented Reality</mark> 
+
+  I am also passionated about CUDA programming, 3D computer graphics and AI. 
+
+  By the way, I am really proud of my latest work done in Unreal Engine 4 about realistic hand interaction in VR. Take a look to [UnrealGrasp](https://www.youtube.com/watch?v=65gdFdwsTVg).
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
@@ -46,9 +52,7 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 # more_title: A Little More About Me #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
-  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+   Unconditional love for cycling, sailing and good food!
 
 # Footer
 footer_show_references: true
@@ -57,9 +61,16 @@ footer_show_references: true
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
 # remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
+theme: modern-resume-theme
+
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
  - jekyll-seo-tag
+
+scholar:
+  source: ./_bibliography
+  bibliography: publications.bib
+
